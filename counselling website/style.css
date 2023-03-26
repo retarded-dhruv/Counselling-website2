@@ -1,0 +1,246 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .heroine {
+    background-image: url(carr.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+    height: 10rem;
+    
+  }
+
+
+  .heroine h1 {
+    font-size: 50px;
+    color: #3b3636;
+  }
+  
+  .hero h1{
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 2rem;
+  }
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p{
+    font-size: 2rem;
+  }
+
+  .services h2{
+    font-size: 3rem;
+  }
+
+
+  .services li {
+    font-size: 2rem;
+  }
+
+  .testimonials h2{
+    font-size: 3rem;
+  }
+
+  .testimonials p{
+    font-size: 2rem;
+  }
+
+  .testimonials span{
+    font: 1.5rem;
+  }
+
+
+  h1, h2 {
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea {
+    border: 1px solid #06a2df;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #06a2df;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #06a2df;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  
+  /* Specific styles */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #services ul {
+    list-style: disc;
+    margin-left: 2rem;
+  }
+  
+  #about p:first-child {
+    margin-top: 0;
+  }
+  
+  #contact label {
+    font-weight: bold;
+  }
+  
+  /* Career Counselling-specific styles */
+  #header-image {
+    background-image: url('path/to/header/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  #services {
+    background-color: #06a2df;
+    padding: 2rem;
+    text-align: center;
+    height: 40rem;
+  }
+  
+  #services h2 {
+    margin-bottom: 2rem;
+  }
+  
+  #services ul {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  #services li {
+    margin-bottom: 1rem;
+  }
+  
+  #services a {
+    background-color: #333;
+    color: #06a2df;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #services a:hover {
+    background-color: #555;
+  }
+  
+  #about {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #about img {
+    max-width: 400px;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    margin-bottom: 1rem;
+  }
+  
+  #team {
+    background-color: #06a2df;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #team h2 {
+    margin-bottom: 2rem;
+  }
+  
+  #team ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  

@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration:wavy;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .hero {
+    background-image: url(break.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 100px 20px;
+    height: 11rem;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea {
+    border: 1px solid #ccc;
+    padding: 2rem
+  }
+  
